@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: micronautguide
+#tag::cors[]
+---
+micronaut:
+  server:
+    cors:
+      enabled: true

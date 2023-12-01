@@ -1,0 +1,9 @@
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization,identity-id
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/

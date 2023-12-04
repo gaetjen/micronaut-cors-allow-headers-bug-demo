@@ -33,6 +33,3 @@ Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
 Referer: localhost/
-
-###
-GET http://localhost:8080/hello?numbers=1,2,3,4,5&foos=foo,bar,bar,foo,Foo,FOO

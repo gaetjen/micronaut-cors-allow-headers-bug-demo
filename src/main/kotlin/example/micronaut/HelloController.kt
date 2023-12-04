@@ -1,7 +1,5 @@
 package example.micronaut
 
-import io.micronaut.core.annotation.Introspected
-import io.micronaut.http.HttpResponse
 import io.micronaut.http.MediaType
 import io.micronaut.http.annotation.Controller
 import io.micronaut.http.annotation.Get
@@ -12,5 +10,15 @@ import io.micronaut.http.annotation.QueryValue
 class HelloController {
     @Get// <2>
     @Produces(MediaType.TEXT_PLAIN) // <3>
-    fun index() = "Hello World"
+    fun index(
+        @QueryValue
+        numbers: IntList,
+        @QueryValue
+        foos: FooBarList
+    ) = "Hello World, ${numbers.value}, ${foos.value}"
+}
+
+
+enum class FooBar {
+    FOO, BAR
 }

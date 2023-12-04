@@ -1,15 +1,16 @@
+# custom converter gets called
 OPTIONS http://localhost:8080/hello
 Accept: */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
-Access-Control-Request-Headers: abc,def,123,456
+Access-Control-Request-Headers: abc,def
 Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
 Referer: localhost/
 
-###
+### all requested headers are present in response
 OPTIONS http://localhost:8080/hello
 Accept: */*
 Accept-Encoding: gzip, deflate, br
@@ -17,6 +18,18 @@ Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
 Access-Control-Request-Headers: abc
 Access-Control-Request-Headers: def
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+
+### custom converter gets called, ints are returned
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc,def,123,456
+Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
 Referer: localhost/

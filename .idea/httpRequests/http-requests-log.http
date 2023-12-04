@@ -17,20 +17,6 @@ Accept: */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
-Access-Control-Request-Headers: abc
-Access-Control-Request-Headers: def
-Connection: keep-alive
-Origin: localhost
-Referer: localhost/
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-
-###
-
-OPTIONS http://localhost:8080/hello
-Accept: */*
-Accept-Encoding: gzip, deflate, br
-Accept-Language: en-US,en;q=0.9
-Access-Control-Request-Method: GET
 Access-Control-Request-Headers: abc,def,123,456
 Random-Header: random-value1,random-value2
 Connection: keep-alive
@@ -59,7 +45,59 @@ Accept: */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
+Access-Control-Request-Headers: abc,def,ghi
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc,def,ghi
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc,def,ghi
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc,def,ghi
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc,def
 Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
@@ -73,7 +111,7 @@ Accept: */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
+Access-Control-Request-Headers: abc,def
 Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
@@ -87,35 +125,8 @@ Accept: */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
-Connection: keep-alive
-Origin: localhost
-Referer: localhost/
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-
-###
-
-OPTIONS http://localhost:8080/hello
-Accept: */*
-Accept-Encoding: gzip, deflate, br
-Accept-Language: en-US,en;q=0.9
-Access-Control-Request-Method: GET,POST
-Access-Control-Request-Headers: authorization,identity-id
-Connection: keep-alive
-Origin: localhost
-Referer: localhost/
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-
-<> 2023-12-04T043750.405.json
-
-###
-
-OPTIONS http://localhost:8080/hello
-Accept: */*
-Accept-Encoding: gzip, deflate, br
-Accept-Language: en-US,en;q=0.9
-Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
 Referer: localhost/
@@ -128,8 +139,8 @@ Accept: */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization
-Access-Control-Request-Headers: identity-id
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
 Referer: localhost/
@@ -142,7 +153,8 @@ Accept: */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
 Referer: localhost/
@@ -155,7 +167,8 @@ Accept: */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
 Referer: localhost/
@@ -168,7 +181,8 @@ Accept: */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
 Referer: localhost/
@@ -181,7 +195,8 @@ Accept: */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
 Referer: localhost/
@@ -194,7 +209,8 @@ Accept: */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
 Referer: localhost/
@@ -207,29 +223,8 @@ Accept: */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
-Connection: keep-alive
-Origin: localhost
-Referer: localhost/
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-
-###
-
-GET http://localhost:8080/hello/typed?fooBar=foo
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-04T042638.200.json
-
-###
-
-OPTIONS http://localhost:8080/hello
-Accept: */*
-Accept-Encoding: gzip, deflate, br
-Accept-Language: en-US,en;q=0.9
-Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
 Referer: localhost/
@@ -242,7 +237,8 @@ Accept: */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
 Referer: localhost/
@@ -255,7 +251,8 @@ Accept: */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
 Referer: localhost/
@@ -268,7 +265,8 @@ Accept: */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
 Referer: localhost/
@@ -281,20 +279,8 @@ Accept: */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
-Connection: keep-alive
-Origin: localhost
-Referer: localhost/
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-
-###
-
-OPTIONS http://localhost:8080/hello/typed?fooBar=foo
-Accept: */*
-Accept-Encoding: gzip, deflate, br
-Accept-Language: en-US,en;q=0.9
-Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
 Referer: localhost/
@@ -307,7 +293,8 @@ Accept: */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
 Referer: localhost/
@@ -320,20 +307,8 @@ Accept: */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
-Connection: keep-alive
-Origin: localhost
-Referer: localhost/
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-
-###
-
-OPTIONS http://localhost:8080/hello/typed?fooBar=foo
-Accept: */*
-Accept-Encoding: gzip, deflate, br
-Accept-Language: en-US,en;q=0.9
-Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
 Referer: localhost/
@@ -346,7 +321,8 @@ Accept: */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
 Referer: localhost/
@@ -359,186 +335,8 @@ Accept: */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
-Connection: keep-alive
-Origin: localhost
-Referer: localhost/
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-
-###
-
-GET http://localhost:8080/hello/typed?fooBar=foo
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-04T035642.200.json
-
-###
-
-OPTIONS http://localhost:8080/hello
-Accept: */*
-Accept-Encoding: gzip, deflate, br
-Accept-Language: en-US,en;q=0.9
-Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
-Connection: keep-alive
-Origin: localhost
-Referer: localhost/
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-
-###
-
-OPTIONS http://localhost:8080/hello/typed?fooBar=foo
-Accept: */*
-Accept-Encoding: gzip, deflate, br
-Accept-Language: en-US,en;q=0.9
-Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
-Connection: keep-alive
-Origin: localhost
-Referer: localhost/
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-
-###
-
-OPTIONS http://localhost:8080/hello/typed?fooBar=foo
-Accept: */*
-Accept-Encoding: gzip, deflate, br
-Accept-Language: en-US,en;q=0.9
-Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
-Connection: keep-alive
-Origin: localhost
-Referer: localhost/
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-
-###
-
-GET http://localhost:8080/hello/typed?fooBar=foo
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-01T174605.200.json
-
-###
-
-OPTIONS http://localhost:8080/hello/typed?fooBar=foo
-Accept: */*
-Accept-Encoding: gzip, deflate, br
-Accept-Language: en-US,en;q=0.9
-Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
-Connection: keep-alive
-Origin: localhost
-Referer: localhost/
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-
-###
-
-OPTIONS http://localhost:8080/hello/typed?fooBar=foo
-Accept: */*
-Accept-Encoding: gzip, deflate, br
-Accept-Language: en-US,en;q=0.9
-Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
-Connection: keep-alive
-Origin: localhost
-Referer: localhost/
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-
-###
-
-GET http://localhost:8080/hello/typed?fooBar=foo
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-01T171843.200.json
-
-###
-
-GET http://localhost:8080/hello/typed?fooBar=foo
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-01T171806.200.json
-
-###
-
-GET http://localhost:8080/hello/typed?fooBar=foo
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-01T171729.200.json
-
-###
-
-OPTIONS http://localhost:8080/hello/typed?fooBar=foo
-Accept: */*
-Accept-Encoding: gzip, deflate, br
-Accept-Language: en-US,en;q=0.9
-Access-Control-Request-Method: POST,GET
-Access-Control-Request-Headers: authorization,identity-id
-Connection: keep-alive
-Origin: localhost
-Referer: localhost/
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-
-<> 2023-12-01T171533.405.json
-
-###
-
-OPTIONS http://localhost:8080/hello/typed?fooBar=foo
-Accept: */*
-Accept-Encoding: gzip, deflate, br
-Accept-Language: en-US,en;q=0.9
-Access-Control-Request-Method: POST
-Access-Control-Request-Headers: authorization,identity-id
-Connection: keep-alive
-Origin: localhost
-Referer: localhost/
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-
-###
-
-OPTIONS http://localhost:8080/hello/typed?fooBar=foo
-Accept: */*
-Accept-Encoding: gzip, deflate, br
-Accept-Language: en-US,en;q=0.9
-Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
-Connection: keep-alive
-Origin: localhost
-Referer: localhost/
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-
-<> 2023-12-01T171517.405.json
-
-###
-
-OPTIONS http://localhost:8080/hello/typed?fooBar=foo
-Accept: */*
-Accept-Encoding: gzip, deflate, br
-Accept-Language: en-US,en;q=0.9
-Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
-Connection: keep-alive
-Origin: localhost
-Referer: localhost/
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-
-###
-
-OPTIONS http://localhost:8080/hello/typed?fooBar=foo
-Accept: */*
-Accept-Encoding: gzip, deflate, br
-Accept-Language: en-US,en;q=0.9
-Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
 Referer: localhost/
@@ -551,47 +349,12 @@ Accept: */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
 Referer: localhost/
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-
-###
-
-GET http://localhost:8080/hello/typed?fooBar=foo
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-01T171427.200.json
-
-###
-
-GET http://localhost:8080/hello/typed?fooBar=foo
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-01T171242.200.json
-
-###
-
-GET http://localhost:8080/hello/typed?fooBar=foo
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-01T171209.200.json
-
-###
-
-GET http://localhost:8080/hello/typed?fooBar=foo
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-01T171143.200.json
 
 ###
 
@@ -600,7 +363,8 @@ Accept: */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: en-US,en;q=0.9
 Access-Control-Request-Method: GET
-Access-Control-Request-Headers: authorization,identity-id
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
 Connection: keep-alive
 Origin: localhost
 Referer: localhost/
@@ -608,12 +372,326 @@ User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 
 ###
 
-GET http://localhost:8080/hello/typed?fooBar=foo
-Connection: Keep-Alive
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-12-01T171022.200.json
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc
+Access-Control-Request-Headers: def
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc
+Access-Control-Request-Headers: def
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc
+Access-Control-Request-Headers: def
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc
+Access-Control-Request-Headers: def
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc
+Access-Control-Request-Headers: def
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc
+Access-Control-Request-Headers: def
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc
+Access-Control-Request-Headers: def
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc
+Access-Control-Request-Headers: def
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc
+Access-Control-Request-Headers: def
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc
+Access-Control-Request-Headers: def
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc
+Access-Control-Request-Headers: def
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc
+Access-Control-Request-Headers: def
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc
+Access-Control-Request-Headers: def
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc
+Access-Control-Request-Headers: def
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Cookie: XDEBUG_SESSION=16734
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc
+Access-Control-Request-Headers: def
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+
+###
+
+OPTIONS http://localhost:8080/hello
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: abc,def
+Random-Header: random-value1,random-value2
+Connection: keep-alive
+Origin: localhost
+Referer: localhost/
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 
 ###
 
